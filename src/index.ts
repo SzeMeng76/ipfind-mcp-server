@@ -45,7 +45,7 @@ server.tool(
                 content: [
                     {
                         type: 'text',
-                        text: `Error fetching IP data: ${error.message}`,
+                        text: `Error fetching IP data: ${error instanceof Error ? error.message : String(error)}`,
                     },
                 ],
             };
@@ -75,7 +75,7 @@ server.tool(
                 content: [
                     {
                         type: 'text',
-                        text: `Error fetching current IP data: ${error.message}`,
+                        text: `Error fetching current IP data: ${error instanceof Error ? error.message : String(error)}`,
                     },
                 ],
             };
@@ -105,7 +105,7 @@ server.tool(
                 content: [
                     {
                         type: 'text',
-                        text: `Error fetching API usage data: ${error.message}`,
+                        text: `Error fetching API usage data: ${error instanceof Error ? error.message : String(error)}`,
                     },
                 ],
             };
