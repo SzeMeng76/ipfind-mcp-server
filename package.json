@@ -1,10 +1,10 @@
 {
   "name": "@szemeng76/ipfind-mcp-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server for interacting with IP Find API",
   "license": "MIT",
   "author": "IP Find",
-  "repository": "github:ipfind/ipfind-mcp-server",
+  "repository": "github:SzeMeng76/ipfind-mcp-server",
   "homepage": "https://ipfind.com",
   "engines": {
     "node": ">=18"
